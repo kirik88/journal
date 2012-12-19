@@ -1,4 +1,6 @@
 #include <QtGui/QApplication>
+#include <QTranslator>
+#include <QLocale>
 #include "mainwindow.h"
 
 int main(int argc, char *argv[])
@@ -8,7 +10,7 @@ int main(int argc, char *argv[])
     // информация о программе
     a.setOrganizationName("kirik88");
     a.setApplicationName("journal");
-    a.setApplicationVersion(appVersion);
+    //a.setApplicationVersion(appVersion);
 
     // загрузка русского перевода стандартных надписей
     QTranslator qtTranslator;
